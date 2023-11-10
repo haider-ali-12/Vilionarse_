@@ -1,0 +1,705 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: monospace;
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  margin: 0%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* ===========start screen reprosition============= */
+/* Big */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* Meidium */
+@media (min-width: 992px) and (max-width: 1119px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+}
+/* ===========  End screen reprosition=============== */
+/*===========strat nav bar==============*/
+.nav-bar {
+  position: absolute;
+  top: 1%;
+  left: 0%;
+  z-index: 1;
+  width: 100%;
+}
+.nav-bar .container {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-bar .container .logo a {
+  font-size: 28px;
+  color: white;
+  font-size: 25px;
+  border-bottom: 3px;
+}
+.nav-bar .container .logo a:hover {
+  color: black !important;
+}
+.nav-bar .container .links ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+  flex-direction: row-reverse;
+}
+.nav-bar .container .links ul .home a {
+  background: black;
+  border-radius: 0.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 4.5px;
+  display: block;
+}
+.nav-bar .container .links ul .home a:hover {
+  background-color: white;
+  color: black;
+}
+.nav-bar .container .links ul li a {
+  font-weight: bold;
+  font-family: "Font Awesome 6 Free";
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: white;
+}
+.nav-bar .container .links ul li a:hover {
+  color: black;
+}
+
+/* Big */
+/* Meidium */
+@media (max-width: 992px) {
+  .nav-bar .container .links ul li {
+    padding-top: 3px;
+  }
+  .nav-bar .container .links ul li a {
+    font-size: 18px;
+  }
+}
+/* Small */
+@media (max-width: 768px) {
+  .nav-bar .container .links {
+    display: none;
+  }
+}
+.landing-page {
+  border-bottom: solid 1px white;
+  margin-bottom: 2rem;
+  height: 100vh;
+  background-image: url("../img/thumb-415348697_KFCT2xqP_violin_in_orchestra_1110x741.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.landing-page .background-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, #0f0e0e 0%, rgba(6, 5, 7, 0.35) 99%, rgba(8, 7, 10, 0.5) 100%);
+}
+.landing-page .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  translate: 0px 270px;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff9f9;
+}
+.landing-page .container h1 {
+  font-size: 62px;
+}
+.landing-page .container h2 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.landing-page .container a {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: rgba(0, 0, 255, 0.6117647059);
+  background: rgba(255, 255, 255, 0.3098039216);
+  border-radius: 7px;
+  font-size: 28px;
+}
+
+/* Big */
+/* Meidium */
+@media (max-width: 992px) {
+  .landing-page .container h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+}
+/* Small */
+@media (max-width: 768px) {
+  .landing-page .container h1 {
+    font-size: 34px;
+    width: 300px;
+  }
+  .landing-page .container h2 {
+    font-size: 25px;
+    width: 90%;
+    text-align: center;
+  }
+}
+.about .container {
+  border-bottom: solid 1px white;
+  margin-bottom: 2rem;
+  padding-bottom: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+.about .container h1 {
+  margin: 30px;
+}
+.about .container .details {
+  display: flex;
+  justify-content: space-between;
+}
+.about .container .details .sells {
+  width: 500px;
+  height: 250px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+.about .container .details .sells p {
+  position: relative;
+  top: 33%;
+  left: 0%;
+}
+.about .container .details .courses {
+  width: 500px;
+  height: 250px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+.about .container .details .courses p {
+  position: relative;
+  top: 33%;
+  left: 0%;
+}
+
+/* Big */
+/* Meidium */
+@media (max-width: 992px) {
+  .about .container .details {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .container .details .sells {
+    padding: 0 10px;
+    width: 98%;
+    font-size: 21px;
+  }
+  .about .container .details .courses {
+    padding: 0 10px;
+    width: 98%;
+    font-size: 21px;
+    padding-top: 20px;
+  }
+}
+/* Small */
+@media (max-width: 768px) {
+  .about .container .head {
+    font-size: 27px;
+    font-weight: 900;
+  }
+  .about .container .details {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .container .details .sells {
+    width: 98%;
+    font-size: 21px;
+  }
+  .about .container .details .courses {
+    width: 98%;
+    font-size: 21px;
+    padding-top: 20px;
+  }
+}
+.sells {
+  margin-bottom: 6rem;
+}
+.sells .container {
+  border-bottom: solid 1px white;
+  padding-bottom: 4rem;
+}
+.sells .container .sells-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: large;
+}
+.sells .container .violin-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.sells .container .violin-container .one .discription {
+  text-transform: capitalize;
+  font-size: x-large !important;
+  translate: 0px 551px;
+  background-color: black;
+  height: 44px;
+  width: 100%;
+  padding: 0 23px;
+  font-size: 13.4px;
+  cursor: pointer;
+  border: solid 1px white;
+  padding-top: 4px;
+}
+.sells .container .violin-container .one .discription:hover {
+  background-color: white;
+}
+.sells .container .violin-container .one .discription:hover a {
+  color: black;
+}
+.sells .container .violin-container .one .discription a {
+  color: white;
+  padding-left: 7px;
+}
+.sells .container .violin-container .one .img-container {
+  width: 300px;
+}
+.sells .container .violin-container .one .img-container img {
+  width: 100%;
+  height: 100%;
+}
+.sells .container .violin-container .two .discription {
+  text-transform: capitalize;
+  font-size: x-large !important;
+  translate: 0px 551px;
+  background-color: black;
+  height: 44px;
+  width: 100%;
+  padding: 0 23px;
+  font-size: 13.4px;
+  cursor: pointer;
+  border: solid 1px white;
+  padding-top: 4px;
+}
+.sells .container .violin-container .two .discription:hover {
+  background-color: white;
+}
+.sells .container .violin-container .two .discription:hover a {
+  color: black;
+}
+.sells .container .violin-container .two .discription a {
+  color: white;
+  padding-left: 7px;
+}
+.sells .container .violin-container .two .img-container {
+  width: 300px;
+}
+.sells .container .violin-container .two .img-container img {
+  width: 100%;
+  height: 100%;
+}
+.sells .container .violin-container .three .discription {
+  text-transform: capitalize;
+  font-size: x-large !important;
+  translate: 0px 551px;
+  background-color: black;
+  height: 44px;
+  width: 100%;
+  padding: 0 23px;
+  font-size: 13.4px;
+  cursor: pointer;
+  border: solid 1px white;
+  padding-top: 4px;
+}
+.sells .container .violin-container .three .discription:hover {
+  background-color: white;
+}
+.sells .container .violin-container .three .discription:hover a {
+  color: black;
+}
+.sells .container .violin-container .three .discription a {
+  color: white;
+  padding-left: 7px;
+}
+.sells .container .violin-container .three .img-container {
+  width: 300px;
+}
+.sells .container .violin-container .three .img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Meidium */
+@media (max-width: 992px) {
+  .sells .container .sells-title .top {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .sells .container .sells-title .botton {
+    font-size: 22px;
+    font-weight: 900;
+  }
+}
+/* Small */
+@media (max-width: 768px) {
+  .sells .container .sells-title .top {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .sells .container .sells-title .botton {
+    font-size: 22px;
+    font-weight: 900;
+  }
+  .sells .container .violin-container .one .discription:hover {
+    background: black;
+  }
+  .sells .container .violin-container .one .discription:hover a {
+    color: white;
+  }
+  .sells .container .violin-container .two .discription:hover {
+    background: black;
+  }
+  .sells .container .violin-container .two .discription:hover a {
+    color: white;
+  }
+  .sells .container .violin-container .three .discription:hover {
+    background: black;
+  }
+  .sells .container .violin-container .three .discription:hover a {
+    color: white;
+  }
+}
+.coures .container {
+  border-bottom: solid 1px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-bottom: 7.5rem;
+}
+.coures .container .title {
+  width: 300px;
+  text-align: center;
+  margin-bottom: 6rem;
+  text-transform: uppercase;
+}
+.coures .container .title h1 {
+  font-size: 60px;
+  border: solid 1px white;
+  border-radius: 10px;
+}
+.coures .container .div-flex {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10rem;
+}
+.coures .container .div-flex .level-one {
+  position: relative;
+}
+.coures .container .div-flex .level-one .img-container {
+  width: 30rem;
+  height: 39rem;
+}
+.coures .container .div-flex .level-one .img-container img {
+  width: 100%;
+  height: 100%;
+}
+.coures .container .div-flex .level-one .box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0f0e0e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+.coures .container .div-flex .level-one .box .title-one {
+  border: solid 1px white;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: large;
+}
+.coures .container .div-flex .level-one .box .course-content {
+  width: 100%;
+}
+.coures .container .div-flex .level-one .box .course-content .title-content {
+  text-align: start;
+  text-transform: capitalize;
+  font-size: x-large;
+}
+.coures .container .div-flex .level-one .box .course-content .content {
+  font-size: xx-large;
+}
+.coures .container .div-flex .level-one .box .course-content .content p {
+  padding: 1rem;
+}
+.coures .container .div-flex .level-one .box .course-content .registration {
+  width: 100%;
+  background: white;
+  height: 40px;
+  margin-top: 89px;
+  text-align: center;
+  padding: 6px 0;
+}
+.coures .container .div-flex .level-one .box .course-content .registration a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+.coures .container .div-flex .level-two {
+  position: relative;
+}
+.coures .container .div-flex .level-two .img-container {
+  width: 30rem;
+  height: 39rem;
+}
+.coures .container .div-flex .level-two .img-container img {
+  width: 100%;
+  height: 100%;
+}
+.coures .container .div-flex .level-two .box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0f0e0e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+.coures .container .div-flex .level-two .box .title-one {
+  border: solid 1px white;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: large;
+}
+.coures .container .div-flex .level-two .box .course-content {
+  width: 100%;
+}
+.coures .container .div-flex .level-two .box .course-content .title-content {
+  text-align: start;
+  text-transform: capitalize;
+  font-size: x-large;
+}
+.coures .container .div-flex .level-two .box .course-content .content {
+  font-size: xx-large;
+}
+.coures .container .div-flex .level-two .box .course-content .content p {
+  padding: 1rem;
+}
+.coures .container .div-flex .level-two .box .course-content .registration {
+  width: 100%;
+  background: white;
+  height: 40px;
+  margin-top: 63px;
+  text-align: center;
+  padding: 6px 0;
+}
+.coures .container .div-flex .level-two .box .course-content .registration a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+
+/* Big */
+/* Meidium */
+@media (max-width: 992px) {
+  .coures .container .title {
+    width: 400px;
+  }
+  .coures .container .title h1 {
+    font-size: 45px;
+  }
+  .coures .container .div-flex {
+    justify-content: center;
+    gap: 4rem;
+  }
+}
+/* Small */
+@media (max-width: 768px) {
+  .coures .container .title h1 {
+    font-size: 35px;
+  }
+  .coures .container .div-flex {
+    justify-content: center;
+    gap: 4rem;
+  }
+  .coures .container .div-flex .level-one {
+    width: 90%;
+  }
+  .coures .container .div-flex .level-one .img-container {
+    width: 100%;
+  }
+  .coures .container .div-flex .level-one .box .course-content .title-content {
+    font-size: 15px;
+  }
+  .coures .container .div-flex .level-one .box .course-content .content .one {
+    padding-top: 4rem;
+  }
+  .coures .container .div-flex .level-one .box .course-content .content p {
+    font-size: 20px;
+  }
+  .coures .container .div-flex .level-one .box .course-content .registration {
+    margin-top: 97px;
+  }
+  .coures .container .div-flex .level-two {
+    width: 90%;
+  }
+  .coures .container .div-flex .level-two .img-container {
+    width: 100%;
+  }
+  .coures .container .div-flex .level-two .box .course-content .title-content {
+    font-size: 15px;
+  }
+  .coures .container .div-flex .level-two .box .course-content .content p {
+    font-size: 20px;
+  }
+  .coures .container .div-flex .level-two .box .course-content .registration {
+    margin-top: 110px;
+  }
+}
+.call-us .container {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 10rem;
+}
+.call-us .container h5 {
+  margin-top: 4rem;
+  text-transform: capitalize;
+  font-size: xx-large;
+  font-weight: inherit;
+}
+.call-us .container h1 {
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+  background-color: white;
+  color: black;
+  border-radius: 14px;
+  padding: 5px;
+  text-transform: capitalize;
+  font-size: xx-large;
+}
+.call-us .container .input-container form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.call-us .container .input-container form .username input {
+  width: 318px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 2rem;
+}
+.call-us .container .input-container form .email input {
+  width: 318px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 2rem;
+}
+.call-us .container .input-container form .text-area textarea {
+  width: 318px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 2rem;
+}
+.call-us .container .input-container button {
+  margin-left: 33%;
+  display: block;
+  border: none;
+  background: white;
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.call-us .container .input-container button:hover {
+  background: black !important;
+  color: white;
+}
+
+/* Big */
+/* Meidium */
+/* Small */
+@media (max-width: 768px) {
+  .call-us .container h5 {
+    font-size: 22px;
+  }
+  .call-us .container h1 {
+    font-size: 26px;
+  }
+  .call-us .container .input-container {
+    width: 80%;
+  }
+  .call-us .container .input-container form .username input {
+    width: 100%;
+  }
+  .call-us .container .input-container form .email input {
+    width: 100%;
+  }
+  .call-us .container .input-container form .text-area textarea {
+    width: 100%;
+  }
+  .call-us .container .input-container form button {
+    margin: 0 33%;
+  }
+  .call-us .container .input-container form button:hover {
+    color: black;
+    background-color: #ffffff !important;
+  }
+}/*# sourceMappingURL=style.css.map */
