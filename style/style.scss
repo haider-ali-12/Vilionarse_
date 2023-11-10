@@ -230,12 +230,12 @@ body{
     .landing-page {
         .container {
             h1{
-                font-size: 34px;
+                font-size: 30px;
                 width: 300px;
-             
+                text-align: center;
             }
             h2{
-                font-size: 25px;
+                font-size: 20px;
                 
                 width: 90%;
                 text-align: center;
@@ -335,7 +335,7 @@ body{
         .about{
             .container{
                 .head{
-                    font-size:27px;
+                    font-size:20px;
                     font-weight: 900;
                 }
 
@@ -345,11 +345,11 @@ body{
 
                     .sells{
                         width:98%;
-                        font-size: 21px;
+                        font-size: 16px;
                     }
                     .courses{
                         width: 98%;
-                        font-size: 21px;
+                        font-size: 16px;
                         padding-top:20px ;
                     }
                 }
@@ -532,6 +532,8 @@ body{
         .violin-container{
             .one {
                 .discription{
+                    font-size: large !important;
+                    padding: 9px 38px !important;
                     &:hover{
                         background: black;
                     }
@@ -543,6 +545,8 @@ body{
             }
             .two{
                 .discription{
+                    font-size: large !important;
+                    padding: 9px 38px !important;
                     &:hover{
                         background: black;
                     }
@@ -554,6 +558,8 @@ body{
             }
             .three{
                 .discription{
+                    font-size: large !important;
+                    padding: 9px 38px !important;
                     &:hover{
                         background: black;
                     }
@@ -768,7 +774,7 @@ body{
 .coures{
     .container{
         .title{
-
+            width: 80%;
             h1{
                 font-size: 35px;
                 
@@ -783,20 +789,27 @@ body{
                 width: 100%;
             }
             .box{
+                .title-one{
+                    h1{
+
+                        font-size: x-large;
+                    }
+                }
                 .course-content{
                     .title-content{
-                        font-size: 15px;
+                        font-size: 12px;
                     }
                     .content{
                         .one{
                             padding-top: 4rem;
+                            font-size: 15px;
                         }
                         p{
-                            font-size:20px;
+                            font-size:18px;
                         }
                     }
                     .registration{
-                        margin-top: 97px;
+                        margin-top: 184px;
                     }
                 }
             }
@@ -810,15 +823,15 @@ body{
             .box{
                 .course-content{
                     .title-content{
-                        font-size: 15px;
+                        font-size: 12px;
                     }
                     .content{
                         p{
-                            font-size:20px;
+                            font-size:18px;
                         }
                     }
                     .registration{
-                        margin-top: 110px;
+                        margin-top: 130px;
                     }
                 }
             }
@@ -930,10 +943,10 @@ body{
     .call-us {
         .container{
             h5{
-                font-size: 22px;
+                font-size: 17px;
             }
             h1{
-                font-size: 26px;
+                font-size: 20px;
             }
             .input-container{
                 width: 80%;
@@ -957,6 +970,8 @@ body{
                     }
                     button{
                         margin: 0 33%;
+                        width: 80px;
+                        height: 35px;
                   &:hover{
                     color: black;
                     background-color: #ffffff !important;

@@ -174,11 +174,12 @@ body {
 /* Small */
 @media (max-width: 768px) {
   .landing-page .container h1 {
-    font-size: 34px;
+    font-size: 30px;
     width: 300px;
+    text-align: center;
   }
   .landing-page .container h2 {
-    font-size: 25px;
+    font-size: 20px;
     width: 90%;
     text-align: center;
   }
@@ -244,7 +245,7 @@ body {
 /* Small */
 @media (max-width: 768px) {
   .about .container .head {
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 900;
   }
   .about .container .details {
@@ -253,11 +254,11 @@ body {
   }
   .about .container .details .sells {
     width: 98%;
-    font-size: 21px;
+    font-size: 16px;
   }
   .about .container .details .courses {
     width: 98%;
-    font-size: 21px;
+    font-size: 16px;
     padding-top: 20px;
   }
 }
@@ -391,17 +392,29 @@ body {
     font-size: 22px;
     font-weight: 900;
   }
+  .sells .container .violin-container .one .discription {
+    font-size: large !important;
+    padding: 9px 38px !important;
+  }
   .sells .container .violin-container .one .discription:hover {
     background: black;
   }
   .sells .container .violin-container .one .discription:hover a {
     color: white;
   }
+  .sells .container .violin-container .two .discription {
+    font-size: large !important;
+    padding: 9px 38px !important;
+  }
   .sells .container .violin-container .two .discription:hover {
     background: black;
   }
   .sells .container .violin-container .two .discription:hover a {
     color: white;
+  }
+  .sells .container .violin-container .three .discription {
+    font-size: large !important;
+    padding: 9px 38px !important;
   }
   .sells .container .violin-container .three .discription:hover {
     background: black;
@@ -567,6 +580,9 @@ body {
 }
 /* Small */
 @media (max-width: 768px) {
+  .coures .container .title {
+    width: 80%;
+  }
   .coures .container .title h1 {
     font-size: 35px;
   }
@@ -580,17 +596,21 @@ body {
   .coures .container .div-flex .level-one .img-container {
     width: 100%;
   }
+  .coures .container .div-flex .level-one .box .title-one h1 {
+    font-size: x-large;
+  }
   .coures .container .div-flex .level-one .box .course-content .title-content {
-    font-size: 15px;
+    font-size: 12px;
   }
   .coures .container .div-flex .level-one .box .course-content .content .one {
     padding-top: 4rem;
+    font-size: 15px;
   }
   .coures .container .div-flex .level-one .box .course-content .content p {
-    font-size: 20px;
+    font-size: 18px;
   }
   .coures .container .div-flex .level-one .box .course-content .registration {
-    margin-top: 97px;
+    margin-top: 184px;
   }
   .coures .container .div-flex .level-two {
     width: 90%;
@@ -599,13 +619,13 @@ body {
     width: 100%;
   }
   .coures .container .div-flex .level-two .box .course-content .title-content {
-    font-size: 15px;
+    font-size: 12px;
   }
   .coures .container .div-flex .level-two .box .course-content .content p {
-    font-size: 20px;
+    font-size: 18px;
   }
   .coures .container .div-flex .level-two .box .course-content .registration {
-    margin-top: 110px;
+    margin-top: 130px;
   }
 }
 .call-us .container {
@@ -678,10 +698,10 @@ body {
 /* Small */
 @media (max-width: 768px) {
   .call-us .container h5 {
-    font-size: 22px;
+    font-size: 17px;
   }
   .call-us .container h1 {
-    font-size: 26px;
+    font-size: 20px;
   }
   .call-us .container .input-container {
     width: 80%;
@@ -697,6 +717,8 @@ body {
   }
   .call-us .container .input-container form button {
     margin: 0 33%;
+    width: 80px;
+    height: 35px;
   }
   .call-us .container .input-container form button:hover {
     color: black;
