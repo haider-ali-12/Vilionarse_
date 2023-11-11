@@ -377,11 +377,10 @@ body{
             gap: 10px;
             justify-content: space-evenly;
             .one{
-                
+                width: 300px;
                 .discription{
                     text-transform: capitalize;
                     font-size: x-large !important;
-                    translate: 0px 551px;
                     background-color: black;
                     height: 44px;
                     width: 100%;
@@ -405,8 +404,8 @@ body{
                     }
                 }
                 .img-container{
-                    
-                    width: 300px;
+                    height: 92%;
+                    width: 100%;
                     img{
                         width: 100%;
                         height: 100%;
@@ -414,10 +413,10 @@ body{
                 }
             }
             .two{
+                width: 300px;
                 .discription{
                     text-transform: capitalize;
                     font-size: x-large !important;
-                    translate: 0px 551px;
                     background-color: black;
                     height: 44px;
                     width: 100%;
@@ -441,8 +440,8 @@ body{
                     }
                 }
                 .img-container{
-                    
-                    width: 300px;
+                    height: 92%;
+                    width: 100%;
                     img{
                         width: 100%;
                         height: 100%;
@@ -450,11 +449,10 @@ body{
                 }
 
             }
-            .three{
+            .three{width: 300px;
                 .discription{
                     text-transform: capitalize;
                     font-size: x-large !important;
-                    translate: 0px 551px;
                     background-color: black;
                     height: 44px;
                     width: 100%;
@@ -478,8 +476,8 @@ body{
                     }
                 }
                 .img-container{
-                    
-                    width: 300px;
+                    height: 92%;
+                    width: 100%;
                     img{
                         width: 100%;
                         height: 100%;
@@ -530,10 +528,12 @@ body{
         }
 
         .violin-container{
+            gap: 15px;
             .one {
                 .discription{
-                    font-size: large !important;
-                    padding: 9px 38px !important;
+                    font-size: 12px !important;
+                    padding: 13px 0px !important;
+                    text-align: center;
                     &:hover{
                         background: black;
                     }
@@ -545,8 +545,9 @@ body{
             }
             .two{
                 .discription{
-                    font-size: large !important;
-                    padding: 9px 38px !important;
+                    font-size: 12px !important;
+                    padding: 13px 0px !important;
+                    text-align: center;
                     &:hover{
                         background: black;
                     }
@@ -558,8 +559,9 @@ body{
             }
             .three{
                 .discription{
-                    font-size: large !important;
-                    padding: 9px 38px !important;
+                    font-size: 12px !important;
+                    padding: 13px 0px !important;
+                    text-align: center;
                     &:hover{
                         background: black;
                     }
@@ -656,9 +658,9 @@ body{
                         width: 100%;
                         background: white;
                         height: 40px;
-                        margin-top: 89px;
                         text-align: center;
                         padding: 6px 0;
+                        translate: 0px 89px;
                         a{
                             font-size: 20px;
                             text-transform: uppercase;
@@ -720,8 +722,8 @@ body{
                         width: 100%;
                         background: white;
                         height: 40px;
-                        margin-top: 63px;
                         text-align: center;
+                        translate: 0 64px;
                         padding: 6px 0;                          
                         a{
                             font-size: 20px;
@@ -797,19 +799,21 @@ body{
                 }
                 .course-content{
                     .title-content{
+                        padding-top: 9px;
                         font-size: 12px;
                     }
                     .content{
                         .one{
-                            padding-top: 4rem;
-                            font-size: 15px;
+                            margin-top: 4rem;
+                            height: 82px;
+                            font-size: 17px;
                         }
                         p{
                             font-size:18px;
                         }
                     }
                     .registration{
-                        margin-top: 184px;
+                         translate: 0 129px;;
                     }
                 }
             }
@@ -821,17 +825,26 @@ body{
                 width: 100%;
             }
             .box{
+                .title-one{
+                    h1{
+
+                        font-size: x-large;
+                    }   
+                }
                 .course-content{
                     .title-content{
+                        padding-top: 9px;
                         font-size: 12px;
                     }
                     .content{
                         p{
+
                             font-size:18px;
                         }
                     }
                     .registration{
-                        margin-top: 130px;
+                        translate: 0 157px;
+
                     }
                 }
             }

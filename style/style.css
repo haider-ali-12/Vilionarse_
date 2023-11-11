@@ -280,10 +280,12 @@ body {
   gap: 10px;
   justify-content: space-evenly;
 }
+.sells .container .violin-container .one {
+  width: 300px;
+}
 .sells .container .violin-container .one .discription {
   text-transform: capitalize;
   font-size: x-large !important;
-  translate: 0px 551px;
   background-color: black;
   height: 44px;
   width: 100%;
@@ -304,16 +306,19 @@ body {
   padding-left: 7px;
 }
 .sells .container .violin-container .one .img-container {
-  width: 300px;
+  height: 92%;
+  width: 100%;
 }
 .sells .container .violin-container .one .img-container img {
   width: 100%;
   height: 100%;
 }
+.sells .container .violin-container .two {
+  width: 300px;
+}
 .sells .container .violin-container .two .discription {
   text-transform: capitalize;
   font-size: x-large !important;
-  translate: 0px 551px;
   background-color: black;
   height: 44px;
   width: 100%;
@@ -334,16 +339,19 @@ body {
   padding-left: 7px;
 }
 .sells .container .violin-container .two .img-container {
-  width: 300px;
+  height: 92%;
+  width: 100%;
 }
 .sells .container .violin-container .two .img-container img {
   width: 100%;
   height: 100%;
 }
+.sells .container .violin-container .three {
+  width: 300px;
+}
 .sells .container .violin-container .three .discription {
   text-transform: capitalize;
   font-size: x-large !important;
-  translate: 0px 551px;
   background-color: black;
   height: 44px;
   width: 100%;
@@ -364,7 +372,8 @@ body {
   padding-left: 7px;
 }
 .sells .container .violin-container .three .img-container {
-  width: 300px;
+  height: 92%;
+  width: 100%;
 }
 .sells .container .violin-container .three .img-container img {
   width: 100%;
@@ -392,9 +401,13 @@ body {
     font-size: 22px;
     font-weight: 900;
   }
+  .sells .container .violin-container {
+    gap: 15px;
+  }
   .sells .container .violin-container .one .discription {
-    font-size: large !important;
-    padding: 9px 38px !important;
+    font-size: 12px !important;
+    padding: 13px 0px !important;
+    text-align: center;
   }
   .sells .container .violin-container .one .discription:hover {
     background: black;
@@ -403,8 +416,9 @@ body {
     color: white;
   }
   .sells .container .violin-container .two .discription {
-    font-size: large !important;
-    padding: 9px 38px !important;
+    font-size: 12px !important;
+    padding: 13px 0px !important;
+    text-align: center;
   }
   .sells .container .violin-container .two .discription:hover {
     background: black;
@@ -413,8 +427,9 @@ body {
     color: white;
   }
   .sells .container .violin-container .three .discription {
-    font-size: large !important;
-    padding: 9px 38px !important;
+    font-size: 12px !important;
+    padding: 13px 0px !important;
+    text-align: center;
   }
   .sells .container .violin-container .three .discription:hover {
     background: black;
@@ -497,9 +512,9 @@ body {
   width: 100%;
   background: white;
   height: 40px;
-  margin-top: 89px;
   text-align: center;
   padding: 6px 0;
+  translate: 0px 89px;
 }
 .coures .container .div-flex .level-one .box .course-content .registration a {
   font-size: 20px;
@@ -554,8 +569,8 @@ body {
   width: 100%;
   background: white;
   height: 40px;
-  margin-top: 63px;
   text-align: center;
+  translate: 0 64px;
   padding: 6px 0;
 }
 .coures .container .div-flex .level-two .box .course-content .registration a {
@@ -600,17 +615,19 @@ body {
     font-size: x-large;
   }
   .coures .container .div-flex .level-one .box .course-content .title-content {
+    padding-top: 9px;
     font-size: 12px;
   }
   .coures .container .div-flex .level-one .box .course-content .content .one {
-    padding-top: 4rem;
-    font-size: 15px;
+    margin-top: 4rem;
+    height: 82px;
+    font-size: 17px;
   }
   .coures .container .div-flex .level-one .box .course-content .content p {
     font-size: 18px;
   }
   .coures .container .div-flex .level-one .box .course-content .registration {
-    margin-top: 184px;
+    translate: 0 129px;
   }
   .coures .container .div-flex .level-two {
     width: 90%;
@@ -618,14 +635,18 @@ body {
   .coures .container .div-flex .level-two .img-container {
     width: 100%;
   }
+  .coures .container .div-flex .level-two .box .title-one h1 {
+    font-size: x-large;
+  }
   .coures .container .div-flex .level-two .box .course-content .title-content {
+    padding-top: 9px;
     font-size: 12px;
   }
   .coures .container .div-flex .level-two .box .course-content .content p {
     font-size: 18px;
   }
   .coures .container .div-flex .level-two .box .course-content .registration {
-    margin-top: 130px;
+    translate: 0 157px;
   }
 }
 .call-us .container {
