@@ -273,6 +273,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   font-size: large;
+  margin-bottom: 2rem;
 }
 .sells .container .violin-container {
   display: flex;
