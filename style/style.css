@@ -683,6 +683,7 @@ body {
   border-radius: 10px;
   border: none;
   margin-bottom: 2rem;
+  outline: none;
 }
 .call-us .container .input-container form .email input {
   padding: 10px;
@@ -691,6 +692,7 @@ body {
   border-radius: 10px;
   border: none;
   margin-bottom: 2rem;
+  outline: none;
 }
 .call-us .container .input-container form .text-area textarea {
   width: 318px;
@@ -698,6 +700,7 @@ body {
   border: none;
   margin-bottom: 2rem;
   padding: 20px;
+  outline: none;
 }
 .call-us .container .input-container button {
   margin-left: 33%;
