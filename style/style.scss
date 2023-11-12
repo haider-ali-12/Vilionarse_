@@ -890,7 +890,7 @@ body{
                 
                 .username{
                     input{
-
+                        padding: 10px ;
                         width: 318px;
                         height: 50px;
                         border-radius: 10px;
@@ -901,7 +901,7 @@ body{
                 }
                 .email{
                     input{
-
+                        padding: 10px ;
                         width: 318px;
                         height: 50px;
                         border-radius: 10px;
@@ -916,6 +916,7 @@ body{
                         border-radius: 10px;
                         border: none;
                         margin-bottom: 2rem;
+                        padding: 20px;
                     }
                     }
                 }
